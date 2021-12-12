@@ -1,0 +1,34 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Lora:ital@1&family=Poppins:wght@400;500;600;700&display=swap");
+
+.header {
+  margin-top: 60px;
+}
+
+.headerTitles {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Lora", serif;
+  color: #fff;
+}
+
+.headerTitleSm {
+  position: absolute;
+  top: 18%;
+  z-index: 1;
+  font-size: 20px;
+}
+
+.headerTitleLg {
+  position: absolute;
+  top: 20%;
+  font-size: 100px;
+  z-index: 1;
+}
+
+.headerImg {
+  width: 100%;
+  height: 450px;
+  object-fit: cover;
+  filter: blur(2px);
+}
